@@ -37,8 +37,6 @@ I would like to be able to [do something].
 
 ### Quality Control
 
-We challenged ourselves to maintain a high quality standard of coding practices, as well as Agile methodologies during this project.
-
 * Good testing coverage.
 * Good coding practices etc
 * Small commits and good descriptions.
