@@ -9,7 +9,9 @@
     "dev": "cross-env NODE_ENV=development webpack-dev-server --open --hot",
     "build": "cross-env NODE_ENV=production webpack --progress --hide-modules",
     "nyc": {
-      "include": ["src/**/*.(js|vue)"],
+      "include": [
+        "src/**/*.(js|vue)"
+      ],
       "instrument": false,
       "sourceMap": false
     }
@@ -17,7 +19,11 @@
   "dependencies": {
     "vue": "^2.5.11"
   },
-  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"],
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
   "devDependencies": {
     "@vue/test-utils": "^1.0.0-beta.12",
     "babel-core": "^6.26.0",
@@ -25,7 +31,7 @@
     "babel-plugin-istanbul": "^4.1.5",
     "babel-preset-env": "^1.6.0",
     "babel-preset-stage-3": "^6.24.1",
-    "cross-env": "^5.0.5",
+    "cross-env": "^5.1.3",
     "css-loader": "^0.28.7",
     "expect": "^22.4.0",
     "file-loader": "^1.1.4",
