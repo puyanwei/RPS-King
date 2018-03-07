@@ -1,26 +1,27 @@
-# Rock Paper Scissors King
+# rps-king
 
-Can you beat the RPS King? Watch out, because he's been a professional poker player for 20 years, and that experience is going to give him a huge edge!
+> A Vue.js project
 
-The aim of this project is to continue to get a better understanding of Vue.js, as well as work out how to the testing framework works. I aim to produce this project with the intention of testing first before writing my code.
+## Build Setup
 
-### Installation
-
-```
-git@github.com:puyanwei/RPS-King.git
-cd RPS-king
+``` bash
+# install dependencies
 npm install
+
+# serve with hot reload at localhost:8080
 npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+
+# run unit tests
+npm run unit
+
+# run all tests
+npm test
 ```
 
-This should open a browser window and go to localhost:8080
-
-### Tech Stack
-
-* Vue.js
-* HTML
-* CSS
-
-### Process
-
-To better understand how testing would work in Vue.js, I used this [tutorial](https://www.youtube.com/watch?v=d2QKTNmU-Tc) by 'Program with Erik' to help me set it up which included testing coverage.
+For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
