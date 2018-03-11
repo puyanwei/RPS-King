@@ -9,7 +9,7 @@ import FrontPage from "./components/FrontPage.vue";
 
 export default {
   components: {
-    "front-page": FrontPage
+    "front-page": FrontPage#
   }
 };
 </script>
