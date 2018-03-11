@@ -1,4 +1,4 @@
-<template lang="html">
+<template>
   <h1>RPS King</h1>
 </template>
 
@@ -6,5 +6,5 @@
 export default {};
 </script>
 
-<style lang="css">
+<style>
 </style>
