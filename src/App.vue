@@ -1,15 +1,15 @@
 <template>
   <div id="app">
-    <rock-paper-scissors></rock-paper-scissors>
+    <front-page></front-page>
   </div>
 </template>
 
 <script>
-import RPS from "./components/RPS.vue";
+import FrontPage from "./components/FrontPage.vue";
 
 export default {
   components: {
-    "rock-paper-scissors": RPS
+    "front-page": FrontPage
   }
 };
 </script>
